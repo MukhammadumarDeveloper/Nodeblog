@@ -1,0 +1,22 @@
+{
+  "name": "nodekb",
+  "version": "1.0.0",
+  "description": "Bu mening Node.js da yaratgan birinchi web saytim",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammadumar Mahmudov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.5.0",
+    "mongoose": "^5.9.9",
+    "nodemon": "^2.0.12",
+    "pug": "^2.0.4"
+  }
+}

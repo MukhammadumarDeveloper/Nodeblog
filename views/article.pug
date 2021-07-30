@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    .container.mt-3
+        h1.sarlavha.mb-4=article.title
+        p.tanasi=article.body
+        br
+        h5.float-right Muallif #{article.author}
+        br
+        hr
+        a.btn.btn-outlined.btn-primary(href="/article/edit/"+ article._id) Edit
+        a.btn.btn-danger.delete-article(href='#', data-id=article._id) O'chirib yuborish

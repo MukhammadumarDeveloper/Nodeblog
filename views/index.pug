@@ -1,0 +1,16 @@
+extends layout
+
+block content 
+  h1.mt-3.mb-3.sarlavha #{title}
+  each article, i in articles
+    .card.p-3.mb-2.maqola
+      a.maqola-sarlavha(href="/article/"+article._id)=article.title
+      br
+      p=article.body
+      h4.muallif.pull-right Muallif: #{article.author}
+  //- .container
+  //-   .card
+  //-      .card-body
+  //-        h5.card-title Title
+  //-        p.card-text Some quick example text to build on the card title and make up the bulk of the card's content
+  //-        a.btn.btn-raised.btn-primary Go soemwhere

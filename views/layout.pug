@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+      title Knowledgebase
+      link(rel="stylesheet", href="/bower_components/bootstrap-material-design/assets/css/docs.css")
+      link(rel="stylesheet", href="/bower_components/bootstrap/dist/css/bootstrap.min.css")
+      link(rel="stylesheet", href="/css/style.css")
+    body.fon
+      nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+        a.navbar-brand(href="/") uzBlog
+        button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+        .collapse.navbar-collapse(id="navbarNavAltMarkup")
+          .navbar-nav
+            a.nav-item.nav-link(href="/") Bosh sahifa
+            a.nav-item.nav-link(href="/articles/add") Maqola qo'shish
+            a.nav-item.nav-link(href="#") Pricing    
+    .container
+      != messages('message', locals)
+      block content
+      br
+      hr
+      footer
+        p Copyright &copy; 2020 (c) Muhammadumar Mahmudov Developed by Node.js
+    script(src='/bower_components/jquery/dist/jquery.js')
+    script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+    script(src="/js/main.js")

@@ -1,0 +1,30 @@
+.fon {
+    /* background-image: url('/images/22.jpg'); */
+    background-attachment: fixed;
+}
+
+.sarlavha {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #000000;
+}
+
+.maqola {
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.maqola-sarlavha {
+    font-size: 20px;
+    
+}
+
+.muallif {
+    font-size: 15px;
+}
+
+.tanasi {
+    font-size: 17px;
+    text-align: justify;
+    /* color: #ffffff; */
+}
